@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "skyisland",
+	"version": "${version}",
+	"name": "Sky Island",
+	"description": "Only keep structures, remove other blocks.",
+	"authors": [
+		"dk-qwq"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/skyisland/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.skyisland.SkyIslandMod"
+		]
+	},
+	"mixins": [
+		"skyisland.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
